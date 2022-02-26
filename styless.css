@@ -95,7 +95,8 @@ a {
 
 /*Polices et size*/
 body,
-html {
+html,
+footer {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 1.6rem;
@@ -125,6 +126,7 @@ h3 {
   font-family: "Roboto";
   font-size: 1.3rem;
   font-weight: 700;
+  
 }
 
 p {
@@ -315,7 +317,7 @@ header .logo {
 }
 
 .menus_restaurant {
-  background: #f2f2f2;
+  background-color: gainsboro;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -352,7 +354,7 @@ header .logo {
   box-shadow: 4px 4px 6px #aaa;
   margin: 10px;
   position: relative;
-  background: #fff;
+  background: ghostwhite;
 }
 @media screen and (min-width: 768px) {
   .card {
@@ -492,10 +494,10 @@ header i {
 
 .titre-menu {
   margin-top: 20px;
+  
 }
 .titre-menu ::after {
   content: "";
-  display: block;
   margin-top: 5px;
   width: 2rem;
   height: 0.2rem;
@@ -646,6 +648,8 @@ footer {
   padding-top: 40px;
   padding-bottom: 20px;
   margin-top: 60px;
+  color: white;
+  font-family: "roboto", sans-serif;
 }
 footer img {
   height: 1.3rem;
