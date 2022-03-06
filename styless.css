@@ -93,6 +93,7 @@ a {
   cursor: pointer;
 }
 
+
 /*Polices et size*/
 body,
 html,
@@ -101,6 +102,7 @@ footer {
   font-size: 1rem;
   line-height: 1.6rem;
   font-weight: 400;
+  background-color: rgb(241, 241, 241);
 }
 
 h1 {
@@ -126,6 +128,8 @@ h3 {
   font-family: "Roboto";
   font-size: 1.3rem;
   font-weight: 700;
+  border-bottom: 2px solid #99E2D0 ;
+
   
 }
 
@@ -327,7 +331,7 @@ header .logo {
 }
 
 .menus_restaurant {
-  background-color: gainsboro;
+
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -357,6 +361,12 @@ header .logo {
     flex-wrap: wrap;
     max-width: 1400px;
   }
+}
+
+.menu.repas1 , .menu.repas2, .menu.repas3 , .menu.repas4{
+  
+  width: 100%;
+  background-color: white;
 }
 
 .card {
@@ -452,6 +462,8 @@ header i {
   object-fit: cover;
   width: 100%;
   height: 250px;
+  
+
 }
 
 /* Titre Menu*/
@@ -464,6 +476,9 @@ header i {
   flex: 1;
   align-items: center;
   padding: 10px 20px 10px 0;
+  
+
+  
 }
 @media screen and (min-width: 1024px) {
   .titre-menu {
@@ -487,10 +502,7 @@ header i {
 /* Carte menu*/
 .main__menu {
   background-color: #f6f6f6;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
   width: 100%;
-  position: relative;
   margin-top: -50px;
 }
 
@@ -503,7 +515,9 @@ header i {
 }
 
 .titre-menu {
-  margin-top: 20px;
+  margin-top: 30px;
+  padding: 20px 10px 20px 10px;
+ 
   
 }
 .titre-menu ::after {
@@ -517,11 +531,10 @@ header i {
 }
 
 .menu {
-  background-color: #fff;
+  
   border-radius: 15px;
   margin: 10px;
   padding: 10px;
-  box-shadow: 4px 4px 6px #aaa;
   position: relative;
   cursor: pointer;
   white-space: nowrap;
@@ -606,8 +619,8 @@ header i {
 .last__line p {
   margin: 0;
   white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
+  
+  
 }
 @media screen and (min-width: 1400px) {
   .last__line p {
@@ -648,6 +661,7 @@ header i {
 .btn__order {
   display: flex;
   justify-content: center;
+  background-color: rgb(241, 241, 241);
 }
 
 footer {
