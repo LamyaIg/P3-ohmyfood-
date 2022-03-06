@@ -139,7 +139,7 @@ p {
 
 .prix {
   font-weight: bold;
-  margin-right: 10px;
+  margin-right: 10%;
   transition: margin-right 1s ease-in-out;
 }
 
@@ -360,12 +360,13 @@ header .logo {
   .menus__cartes {
     flex-wrap: wrap;
     max-width: 1400px;
+    margin: auto;
+  
   }
 }
 
 .menu.repas1 , .menu.repas2, .menu.repas3 , .menu.repas4{
-  
-  width: 100%;
+
   background-color: white;
 }
 
@@ -602,7 +603,7 @@ header i {
   padding: 20px;
   right: -50px;
   top: 0;
-  transition: transform 330ms ease-in-out;
+  transition: right 1s ease-in-out;
 }
 .icones .fa-check-circle {
   color: #fff;
