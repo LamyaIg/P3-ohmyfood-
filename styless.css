@@ -135,6 +135,8 @@ p {
 
 .prix {
   font-weight: bold;
+  margin-right: 10px;
+  transition: margin-right 1s ease-in-out;
 }
 
 /*Code couleur*/
@@ -314,6 +316,14 @@ header .logo {
     display: flex;
     align-items: center;
   }
+}
+
+.menu:hover .prix{
+  margin-right: 110px;
+}
+
+.menu:hover .icones{
+  right: 0;
 }
 
 .menus_restaurant {
@@ -579,7 +589,6 @@ header i {
   padding: 20px;
   right: -50px;
   top: 0;
-  opacity: 0;
   transition: transform 330ms ease-in-out;
 }
 .icones .fa-check-circle {
