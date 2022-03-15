@@ -162,7 +162,7 @@ p {
   justify-content: center;
   align-items: flex-end;
 }
-#loader .logo1 img {
+#loader .logo1  {
   max-width: 200px;
   position: absolute;
   animation: rotate 1.5s linear;
@@ -192,6 +192,12 @@ header {
 }
 header .logo {
   height: 1.9rem;
+}
+
+.logo{
+  font-size: 32px;
+  font-family: "shrikhand" , sans-serif;
+
 }
 
 .maps {
