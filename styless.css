@@ -84,7 +84,6 @@ ul {
 /*Media*/
 img {
   max-width: 100%;
-  padding: 0;
 }
 
 a {
@@ -102,11 +101,6 @@ html {
   font-weight: 400;
 }
 
-h1 {
-  font-weight: 900;
-  font-size: 1.6rem;
-  padding: 20px 40px;
-}
 
 h2 {
   font-weight: 500;
@@ -190,13 +184,14 @@ header {
   justify-content: center;
   align-items: center;
 }
-header .logo {
+header  {
   height: 1.9rem;
 }
 
-.logo{
+h1{
   font-size: 32px;
   font-family: "shrikhand" , sans-serif;
+  font-weight: 500;
 
 }
 
@@ -617,7 +612,7 @@ header i {
 }
 
 .btn__order button {
-  background: linear-gradient(to bottom, #ff79da, #e86edb, #cf64dc, #b35cdc, #9356dc);
+  background: linear-gradient(to bottom, #e86edb, #cf64dc, #b35cdc);
   border: 1px solid transparent;
   border-radius: 30px;
   color: white;
